@@ -15,8 +15,8 @@ fetch('https://treinamento-api.herokuapp.com/books', fetchingConfig)
 })
 .then((responseAsJson) => {
     booksToLoad = responseAsJson;
-}).then((booksToLoad) => {
+}).then(() => {
     for (let i = 0; i < booksToLoad.length; i++) {
-    
+        console.log(booksToLoad[i]);
     }
 })
