@@ -115,6 +115,10 @@ h1, h2{
     clear: both;
 }
 
+.id{
+    display: none;
+}
+
 /*
 #tabbed-content li{
     display: inline-block;
